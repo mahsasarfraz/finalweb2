@@ -1,0 +1,2103 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/output.css" />
+    <title>PLP</title>
+  </head>
+  <body
+    class="desktop:bg-[#f3f3f3] desktop:h-fit mobile:bg-[#f3f3f3] mobile:h-fit"
+  >
+    <!--wrapper-->
+    <div
+      class="desktop:wrapper desktop:bg-[#f3f3f3] mobile:wrapper mobile:bg-[#f3f3f3] mobile:w-full"
+    >
+      <!--header-->
+      <div
+        class="header w-full h-[400px] bg-[url(/src/images/plp/header/img-1.png)] bg-center bg-cover relative header mobile:w-full mobile:h-[300px] mobile:bg-[url(/src/images/plp/header/img-1.png)] mobile:bg-center mobile:bg-cover mobile:relative"
+      >
+        <!-- <img src="./src/images/header/img-2.png" alt="" class="absolute top-[129px] scale-x-[1.1] scale-y-[1.1] left-[45px]"> -->
+        <!--#regin header-top -->
+        <div
+          class="desktop:header-top desktop:w-[1224px] desktop:h-[96px] desktop:rounded-b-[16px] desktop:bg-[#FFFFFF] desktop:pl-[32px] desktop:pr-[32px] desktop:box-border desktop:mx-auto desktop:flex desktop:items-center desktop:justify-between mobile:header-top mobile:w-[80%] mobile:h-[96px] mobile:rounded-b-[16px] mobile:bg-[#FFFFFF] mobile:pl-[32px] mobile:pr-[32px] mobile:box-border mobile:mx-auto mobile:flex mobile:items-center mobile:justify-between"
+        >
+          <div class="right">
+            <img
+              src="./src/images/header/Logo.png"
+              alt=""
+              class="mobile:w-[80%]"
+            />
+          </div>
+          <!--nav-->
+          <div class="hidden desktop:block center">
+            <div class="center-nav w-[507px] h-[28px]">
+              <nav class="w-full h-full flex justify-between gap-x-[20px]">
+                <div>
+                  <a
+                    href="./PLP.html"
+                    class="font-yekan text-[16px] font-medium"
+                    >رزرو خودرو</a
+                  >
+                </div>
+                <a href="./pdp.html" class="font-yekan text-[16px] font-medium"
+                  >خدمات خودرو</a
+                >
+                <a href="#" class="font-yekan text-[16px] font-medium"
+                  >درباره ما</a
+                >
+                <a href="#" class="font-yekan text-[16px] font-medium"
+                  >تماس با ما</a
+                >
+                <a href="#" class="font-yekan text-[16px] font-medium">بلاگ</a>
+                <div>
+                  <a href="#"
+                    ><img src="./src/images/header/search-outline.png" alt=""
+                  /></a>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <!--end nav-->
+          <!--register-->
+          <div class="left">
+            <div class="hidden desktop:block">
+              <a
+                href="#"
+                class="flex btn btn-primary font-yekan text-[15px] font-bold rounded-[8px] flex-nowrap justify-center w-[122px] h-[40px] gap-x-[8px] items-center"
+                >ورود / ثبت‌نام</a
+              >
+            </div>
+            <!--menu mobile-->
+
+            <div class="menu-mobile desktop:hidden block">
+              <div
+                class="w-[50px] h-[50px] flex flex-col justify-center gap-y-2"
+              >
+                <div class="w-[30px] h-[3px] bg-black"></div>
+                <div class="w-[30px] h-[3px] bg-black"></div>
+                <div class="w-[30px] h-[3px] bg-black"></div>
+              </div>
+            </div>
+
+            <!--end menu mobile-->
+          </div>
+
+          <!--end register-->
+        </div>
+        <!--#endregin header-top -->
+        <!--#regin header-cenrer -->
+        <div class="header-center1 w-[230px] h-[25px] mx-auto mt-[130px]">
+          <div class="breadcrumbs text-sm">
+            <ul>
+              <li><a class="text-white font-yekan">اتورنت</a></li>
+              <li>
+                <a class="text-white font-yekan">لیست خودرو های اجاره ای</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--#endregin header-cenrer -->
+      </div>
+      <!--end header-->
+      <!--start main-->
+      <div>
+        <div class="main w-full mt-[56px] hidden desktop:block">
+          <!--main-center-->
+          <div class="main-center mx-auto flex justify-center">
+            <!--sidebar-->
+            <div
+              class="sidebar w-[288px] h-fit bg-white ml-[24px] p-[24px] rounded-[14px] flex flex-col gap-y-[32px] box-border"
+            >
+              <!--sidebar-range-->
+              <div class="sidebar-rang w-[240px] max-h-[94px]">
+                <div
+                  tabindex="0"
+                  class="collapse collapse-arrow bg-base-100 border-base-300 border w-full h-full"
+                >
+                  <input type="checkbox" class="peer" />
+                  <div class="collapse-title font-semibold font-yekan">
+                    قیمت اجاره خودرو
+                  </div>
+                  <div class="collapse-content text-sm">
+                    <input
+                      type="range"
+                      min="0"
+                      max="100"
+                      value="40"
+                      class="range range-primary"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!--end-sidebar-range-->
+              <!--sidebar-brand-->
+              <div class="sidebar-brand w-full max-h-[277px]">
+                <div
+                  tabindex="0"
+                  class="collapse collapse-arrow bg-base-100 border-base-300 border"
+                >
+                  <input type="checkbox" class="peer" />
+                  <div class="collapse-title font-semibold font-yekan">
+                    برند خودرو
+                  </div>
+                  <div class="collapse-content text-sm font-yekan">
+                    <fieldset class="fieldset bg-base-100 p-4">
+                      <label class="label">
+                        <input type="checkbox" class="checkbox" checked />
+                        اجاره بنز
+                      </label>
+                      <label class="label">
+                        <input type="checkbox" class="checkbox" />
+                        اجاره بنز
+                      </label>
+                      <label class="label">
+                        <input type="checkbox" class="checkbox" />
+                        اجاره بنز
+                      </label>
+                      <label class="label">
+                        <input type="checkbox" class="checkbox" />
+                        اجاره بنز
+                      </label>
+                      <label class="label">
+                        <input type="checkbox" class="checkbox" />
+                        اجاره بنز
+                      </label>
+                      <label class="label">
+                        <input type="checkbox" class="checkbox" />
+                        اجاره بنز
+                      </label>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+              <!--end-sidebar-brand-->
+              <!--sidebar-forneed-->
+              <div class="sidebar-forneed w-full max-h-[277px]">
+                <div
+                  tabindex="0"
+                  class="collapse collapse-arrow bg-base-100 border-base-300 border"
+                >
+                  <input type="checkbox" class="peer" />
+                  <div class="collapse-title font-semibold font-yekan">
+                    اجاره خودرو براساس نیاز شما
+                  </div>
+                  <div class="collapse-content text-sm font-yekan">
+                    <fieldset class="fieldset bg-base-100 p-4">
+                      <label class="label">
+                        <input
+                          type="radio"
+                          name="radio-1"
+                          class="radio"
+                          checked="checked"
+                        />
+                        اجاره خودرو با راننده
+                      </label>
+                      <label class="label">
+                        <input type="radio" name="radio-1" class="radio" />
+                        اجاره خودرو بدون راننده
+                      </label>
+                      <label class="label">
+                        <input type="radio" name="radio-1" class="radio" />
+                        اجاره خودرو ایرانی
+                      </label>
+                      <label class="label">
+                        <input type="radio" name="radio-1" class="radio" />
+                        اجاره خودرو تشریفات
+                      </label>
+                      <label class="label">
+                        <input type="radio" name="radio-1" class="radio" />
+                        اجاره ماشین عروس
+                      </label>
+                      <label class="label">
+                        <input type="radio" name="radio-1" class="radio" />
+                        اجاره خودرو لوکس
+                      </label>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+              <!--end-sidebar-forneed-->
+            </div>
+            <!--end sidebar-->
+            <!--cars-->
+            <div class="cars w-[912px]">
+              <div class="cars-top w-[912px] h-[48px] mb-[24px]">
+                <div class="filter w-full h-full flex gap-x-[24px]">
+                  <div class="fliter-right w-[600px] h-[48px]">
+                    <select
+                      class="bhhselect w-full font-yekan border-[#9A9A9A] border-[1px] rounded-[8px] p-[12px]"
+                    >
+                      <option disabled selected>تقویم قیمتی</option>
+                      <option>Crimson</option>
+                      <option>Amber</option>
+                      <option>Velvet</option>
+                    </select>
+                  </div>
+                  <div class="fliter-left w-[287px] h-[48px]">
+                    <select
+                      class="bhhselect w-full font-yekan border-[#9A9A9A] border-[1px] rounded-[8px] p-[12px]"
+                    >
+                      <option disabled selected>مرتب سازی</option>
+                      <option>Crimson</option>
+                      <option>Amber</option>
+                      <option>Velvet</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="cars-bottom w-[912px]">
+                <div
+                  class="stock-cars w-[912pxpx] h-auto flex flex-col gap-y-[24px] mx-auto"
+                >
+                  <!--stock-car-row1-->
+                  <div
+                    class="stock-car-row1 w-full h-[510px] flex flex-wrap gap-x-[24px]"
+                  >
+                    <!--stock-car-row1-col1-->
+                    <div
+                      class="row1-col1 w-[288px] h-full border-[1px] border-[#D7D7D7] bg-[#ffffff] rounded-2xl box-border p-[16px] gap-y-2"
+                    >
+                      <div class="inner1 w-full h-full flex flex-col gap-y-2">
+                        <!--image-capthon-->
+                        <div
+                          class="img-cap w-full h-[401px] border-b-[1px] border-[#D7D7D7] pb-[12px] flex flex-col gap-y-2"
+                        >
+                          <div class="w-full h-[225px]">
+                            <img
+                              src="./src/images/stock-car/car-1.png"
+                              alt=""
+                              class=""
+                            />
+                          </div>
+                          <div
+                            class="tite-car w-full h-[52px] flex gap-2 flex-col"
+                          >
+                            <span
+                              class="class text-[16px] font-yekan font-bold text-black"
+                              >اجاره بنز E350 سدان</span
+                            >
+                            <div class="model flex gap-[3px]">
+                              <span class="text-[12px] font-yekan font-normal"
+                                >مدل :</span
+                              >
+                              <span class="text-[12px] font-yekan font-normal"
+                                >2016</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <div
+                            class="day-price w-full h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[8px] flex flex-row"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >روزانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <!--monthly-price-->
+                          <div
+                            class="monthly-price w-[256px] h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[7px] flex flex-row items-center"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >ماهانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--monthly-price-->
+                        </div>
+                        <!--end image-capthon-->
+                        <!--garanty-->
+                        <div
+                          class="garanty w-full h-[21px] flex justify-between"
+                        >
+                          <span
+                            class="class text-[12px] font-yekan font-medium text-[#212121]"
+                            >مبلغ ضمانت:</span
+                          >
+                          <span
+                            class="class text-[12px] font-yekan font-bold text-[#212121]"
+                            >80 میلیون تومان</span
+                          >
+                        </div>
+                        <!--end garanty-->
+                        <!--button-rezerv-->
+                        <div
+                          class="class w-[256px] h-[40px] rounded-[8px] btn btn-primary"
+                        >
+                          <span
+                            class="class text-[14px] font-yekan font-semibold text-white"
+                            >درخواست رزرو</span
+                          >
+                        </div>
+                        <!--end button-rezerv-->
+                      </div>
+                    </div>
+                    <!--stock-car-row1-col1-->
+                    <!--startstock-car-row1-col2-->
+                    <div
+                      class="row1-col1 w-[288px] h-full border-[1px] border-[#D7D7D7] bg-[#ffffff] rounded-2xl box-border p-[16px]"
+                    >
+                      <div class="inner1 w-full h-full flex flex-col gap-y-2">
+                        <!--image-capthon-->
+                        <div
+                          class="img-cap w-full h-[401px] border-b-[1px] border-[#D7D7D7] pb-[12px] flex flex-col gap-y-2"
+                        >
+                          <div class="w-full h-[225px]">
+                            <img
+                              src="./src/images/stock-car/car-2.png"
+                              alt=""
+                              class=""
+                            />
+                          </div>
+                          <div
+                            class="tite-car w-full h-[52px] flex gap-2 flex-col"
+                          >
+                            <span
+                              class="class text-[16px] font-yekan font-bold text-black"
+                              >اجاره بنز E350 سدان</span
+                            >
+                            <div class="model flex gap-[3px]">
+                              <span class="text-[12px] font-yekan font-normal"
+                                >مدل :</span
+                              >
+                              <span class="text-[12px] font-yekan font-normal"
+                                >2016</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <div
+                            class="day-price w-[256px] h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[8px] flex flex-row"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >روزانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <!--monthly-price-->
+                          <div
+                            class="monthly-price w-[256px] h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[7px] flex flex-row items-center"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >ماهانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--monthly-price-->
+                        </div>
+                        <!--end image-capthon-->
+                        <!--garanty-->
+                        <div
+                          class="garanty w-full h-[21px] flex justify-between"
+                        >
+                          <span
+                            class="class text-[12px] font-yekan font-medium text-[#212121]"
+                            >مبلغ ضمانت:</span
+                          >
+                          <span
+                            class="class text-[12px] font-yekan font-bold text-[#212121]"
+                            >80 میلیون تومان</span
+                          >
+                        </div>
+                        <!--end garanty-->
+                        <!--button-rezerv-->
+                        <div
+                          class="class w-[256px] h-[40px] rounded-[8px] btn btn-primary"
+                        >
+                          <span
+                            class="class text-[14px] font-yekan font-semibold text-white"
+                            >درخواست رزرو</span
+                          >
+                        </div>
+                        <!--end button-rezerv-->
+                      </div>
+                    </div>
+                    <!--endstock-car-row1-col2-->
+                    <!--startstock-car-row1-col3-->
+                    <div
+                      class="row1-col1 w-[288px] h-full border-[1px] border-[#D7D7D7] bg-[#ffffff] rounded-2xl box-border p-[16px]"
+                    >
+                      <div class="inner1 w-full h-full flex flex-col gap-y-2">
+                        <!--image-capthon-->
+                        <div
+                          class="img-cap w-full h-[401px] border-b-[1px] border-[#D7D7D7] pb-[12px] flex flex-col gap-y-2"
+                        >
+                          <div class="w-full h-[225px]">
+                            <img
+                              src="./src/images/stock-car/car-3.png"
+                              alt=""
+                              class=""
+                            />
+                          </div>
+                          <div
+                            class="tite-car w-full h-[52px] flex gap-2 flex-col"
+                          >
+                            <span
+                              class="class text-[16px] font-yekan font-bold text-black"
+                              >اجاره بنز E350 سدان</span
+                            >
+                            <div class="model flex gap-[3px]">
+                              <span class="text-[12px] font-yekan font-normal"
+                                >مدل :</span
+                              >
+                              <span class="text-[12px] font-yekan font-normal"
+                                >2016</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <div
+                            class="day-price w-[256px] h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[8px] flex flex-row"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >روزانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <!--monthly-price-->
+                          <div
+                            class="monthly-price w-[256px] h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[7px] flex flex-row items-center"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >ماهانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--monthly-price-->
+                        </div>
+                        <!--end image-capthon-->
+                        <!--garanty-->
+                        <div
+                          class="garanty w-full h-[21px] flex justify-between"
+                        >
+                          <span
+                            class="class text-[12px] font-yekan font-medium text-[#212121]"
+                            >مبلغ ضمانت:</span
+                          >
+                          <span
+                            class="class text-[12px] font-yekan font-bold text-[#212121]"
+                            >80 میلیون تومان</span
+                          >
+                        </div>
+                        <!--end garanty-->
+                        <!--button-rezerv-->
+                        <div
+                          class="class w-[256px] h-[40px] rounded-[8px] btn btn-primary"
+                        >
+                          <span
+                            class="class text-[14px] font-yekan font-semibold text-white"
+                            >درخواست رزرو</span
+                          >
+                        </div>
+                        <!--end button-rezerv-->
+                      </div>
+                    </div>
+                    <!--endstock-car-row1-col3-->
+                  </div>
+                  <!--end stock-car-row1-->
+                  <!--stock-car-row2-->
+                  <div
+                    class="stock-car-row2 w-full h-[510px] flex flex-wrap gap-x-[24px]"
+                  >
+                    <!--stock-car-row2-col1-->
+                    <div
+                      class="row1-col1 w-[288px] h-full border-[1px] border-[#D7D7D7] bg-[#ffffff] rounded-2xl box-border p-[16px]"
+                    >
+                      <div class="inner1 w-full h-full flex flex-col gap-y-2">
+                        <!--image-capthon-->
+                        <div
+                          class="img-cap w-full h-[401px] border-b-[1px] border-[#D7D7D7] pb-[12px] flex flex-col gap-y-2"
+                        >
+                          <div class="w-full h-[225px]">
+                            <img
+                              src="./src/images/stock-car/car-1.png"
+                              alt=""
+                              class=""
+                            />
+                          </div>
+                          <div
+                            class="tite-car w-full h-[52px] flex gap-2 flex-col"
+                          >
+                            <span
+                              class="class text-[16px] font-yekan font-bold text-black"
+                              >اجاره بنز E350 سدان</span
+                            >
+                            <div class="model flex gap-[3px]">
+                              <span class="text-[12px] font-yekan font-normal"
+                                >مدل :</span
+                              >
+                              <span class="text-[12px] font-yekan font-normal"
+                                >2016</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <div
+                            class="day-price w-[256px] h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[8px] flex flex-row"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >روزانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <!--monthly-price-->
+                          <div
+                            class="monthly-price w-[256px] h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[7px] flex flex-row items-center"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >ماهانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--monthly-price-->
+                        </div>
+                        <!--end image-capthon-->
+                        <!--garanty-->
+                        <div
+                          class="garanty w-full h-[21px] flex justify-between"
+                        >
+                          <span
+                            class="class text-[12px] font-yekan font-medium text-[#212121]"
+                            >مبلغ ضمانت:</span
+                          >
+                          <span
+                            class="class text-[12px] font-yekan font-bold text-[#212121]"
+                            >80 میلیون تومان</span
+                          >
+                        </div>
+                        <!--end garanty-->
+                        <!--button-rezerv-->
+                        <div
+                          class="class w-full h-[40px] rounded-[8px] btn btn-primary"
+                        >
+                          <span
+                            class="class text-[14px] font-yekan font-semibold text-white"
+                            >درخواست رزرو</span
+                          >
+                        </div>
+                        <!--end button-rezerv-->
+                      </div>
+                    </div>
+                    <!--stock-car-row2-col1-->
+                    <!--startstock-car-row2-col2-->
+                    <div
+                      class="row1-col1 w-[288px] h-full border-[1px] border-[#D7D7D7] bg-[#ffffff] rounded-2xl box-border p-[16px]"
+                    >
+                      <div class="inner1 w-full h-full flex flex-col gap-y-2">
+                        <!--image-capthon-->
+                        <div
+                          class="img-cap w-full h-[401px] border-b-[1px] border-[#D7D7D7] pb-[12px] flex flex-col gap-y-2"
+                        >
+                          <div class="w-full h-[225px]">
+                            <img
+                              src="./src/images/stock-car/car-2.png"
+                              alt=""
+                              class=""
+                            />
+                          </div>
+                          <div
+                            class="tite-car w-full h-[52px] flex gap-2 flex-col"
+                          >
+                            <span
+                              class="class text-[16px] font-yekan font-bold text-black"
+                              >اجاره بنز E350 سدان</span
+                            >
+                            <div class="model flex gap-[3px]">
+                              <span class="text-[12px] font-yekan font-normal"
+                                >مدل :</span
+                              >
+                              <span class="text-[12px] font-yekan font-normal"
+                                >2016</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <div
+                            class="day-price w-[256px] h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[8px] flex flex-row"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >روزانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <!--monthly-price-->
+                          <div
+                            class="monthly-price w-[256px] h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[7px] flex flex-row items-center"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >ماهانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--monthly-price-->
+                        </div>
+                        <!--end image-capthon-->
+                        <!--garanty-->
+                        <div
+                          class="garanty w-full h-[21px] flex justify-between"
+                        >
+                          <span
+                            class="class text-[12px] font-yekan font-medium text-[#212121]"
+                            >مبلغ ضمانت:</span
+                          >
+                          <span
+                            class="class text-[12px] font-yekan font-bold text-[#212121]"
+                            >80 میلیون تومان</span
+                          >
+                        </div>
+                        <!--end garanty-->
+                        <!--button-rezerv-->
+                        <div
+                          class="class w-[256px] h-[40px] rounded-[8px] btn btn-primary"
+                        >
+                          <span
+                            class="class text-[14px] font-yekan font-semibold text-white"
+                            >درخواست رزرو</span
+                          >
+                        </div>
+                        <!--end button-rezerv-->
+                      </div>
+                    </div>
+                    <!--endstock-car-row2-col2-->
+                    <!--start-stock-car-row2-col3-->
+                    <div
+                      class="row1-col1 w-[288px] h-full border-[1px] border-[#D7D7D7] bg-[#ffffff] rounded-2xl box-border p-[16px]"
+                    >
+                      <div class="inner1 w-full h-full flex flex-col gap-y-2">
+                        <!--image-capthon-->
+                        <div
+                          class="img-cap w-full h-[401px] border-b-[1px] border-[#D7D7D7] pb-[12px] flex flex-col gap-y-2"
+                        >
+                          <div class="w-full h-[225px]">
+                            <img
+                              src="./src/images/stock-car/car-3.png"
+                              alt=""
+                              class=""
+                            />
+                          </div>
+                          <div
+                            class="tite-car w-full h-[52px] flex gap-2 flex-col"
+                          >
+                            <span
+                              class="class text-[16px] font-yekan font-bold text-black"
+                              >اجاره بنز E350 سدان</span
+                            >
+                            <div class="model flex gap-[3px]">
+                              <span class="text-[12px] font-yekan font-normal"
+                                >مدل :</span
+                              >
+                              <span class="text-[12px] font-yekan font-normal"
+                                >2016</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <div
+                            class="day-price w-[256px] h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[8px] flex flex-row"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >روزانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <!--monthly-price-->
+                          <div
+                            class="monthly-price w-[256px] h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[7px] flex flex-row items-center"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >ماهانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--monthly-price-->
+                        </div>
+                        <!--end image-capthon-->
+                        <!--garanty-->
+                        <div
+                          class="garanty w-full h-[21px] flex justify-between"
+                        >
+                          <span
+                            class="class text-[12px] font-yekan font-medium text-[#212121]"
+                            >مبلغ ضمانت:</span
+                          >
+                          <span
+                            class="class text-[12px] font-yekan font-bold text-[#212121]"
+                            >80 میلیون تومان</span
+                          >
+                        </div>
+                        <!--end garanty-->
+                        <!--button-rezerv-->
+                        <div
+                          class="class w-[256px] h-[40px] rounded-[8px] btn btn-primary"
+                        >
+                          <span
+                            class="class text-[14px] font-yekan font-semibold text-white"
+                            >درخواست رزرو</span
+                          >
+                        </div>
+                        <!--end button-rezerv-->
+                      </div>
+                    </div>
+                    <!--endstock-car-row2-col3-->
+                  </div>
+                  <!--end-stock-car-row2-->
+                </div>
+              </div>
+            </div>
+            <!--end cars-->
+          </div>
+          <!--end main-center-->
+        </div>
+        <!---mobile-main-->
+        <div class="main-menu block desktop:hidden w-full mt-[25px]">
+          <!--main-center-mobile-->
+          <div class="main-center-mobile mx-auto flex flex-col justify-center">
+            <!--mobile-sidebar-->
+            <div
+              class="mobile-sidebar w-[90%] mx-auto mb-[20px] h-fit bg-white ml-[24px p-[24px] box-border rounded-[14px] flex flex-col gap-y-[32px ]"
+            >
+              <!--mobile-sidebar-range-->
+              <div class="sidebar-rang w-full max-h-[94px]">
+                <div
+                  tabindex="0"
+                  class="collapse collapse-arrow bg-base-100 border-base-300 border w-full h-full"
+                >
+                  <input type="checkbox" class="peer" />
+                  <div class="collapse-title font-semibold font-yekan">
+                    قیمت اجاره خودرو
+                  </div>
+                  <div class="collapse-content text-sm">
+                    <input
+                      type="range"
+                      min="0"
+                      max="100"
+                      value="40"
+                      class="range range-primary"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!--end-mobile-sidebar-range-->
+              <!--mobile-sidebar-brand-->
+              <div class="sidebar-brand w-full max-h-[277px]">
+                <div
+                  tabindex="0"
+                  class="collapse collapse-arrow bg-base-100 border-base-300 border"
+                >
+                  <input type="checkbox" class="peer" />
+                  <div class="collapse-title font-semibold font-yekan">
+                    برند خودرو
+                  </div>
+                  <div class="collapse-content text-sm font-yekan">
+                    <fieldset class="fieldset bg-base-100 p-4">
+                      <label class="label">
+                        <input type="checkbox" class="checkbox" checked />
+                        اجاره بنز
+                      </label>
+                      <label class="label">
+                        <input type="checkbox" class="checkbox" />
+                        اجاره بنز
+                      </label>
+                      <label class="label">
+                        <input type="checkbox" class="checkbox" />
+                        اجاره بنز
+                      </label>
+                      <label class="label">
+                        <input type="checkbox" class="checkbox" />
+                        اجاره بنز
+                      </label>
+                      <label class="label">
+                        <input type="checkbox" class="checkbox" />
+                        اجاره بنز
+                      </label>
+                      <label class="label">
+                        <input type="checkbox" class="checkbox" />
+                        اجاره بنز
+                      </label>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+              <!--end-mobile-sidebar-brand-->
+              <!--sidebar-forneed-->
+              <div class="sidebar-forneed w-full max-h-[277px]">
+                <div
+                  tabindex="0"
+                  class="collapse collapse-arrow bg-base-100 border-base-300 border"
+                >
+                  <input type="checkbox" class="peer" />
+                  <div class="collapse-title font-semibold font-yekan">
+                    اجاره خودرو براساس نیاز شما
+                  </div>
+                  <div class="collapse-content text-sm font-yekan">
+                    <fieldset class="fieldset bg-base-100 p-4">
+                      <label class="label">
+                        <input
+                          type="radio"
+                          name="radio-1"
+                          class="radio"
+                          checked="checked"
+                        />
+                        اجاره خودرو با راننده
+                      </label>
+                      <label class="label">
+                        <input type="radio" name="radio-1" class="radio" />
+                        اجاره خودرو بدون راننده
+                      </label>
+                      <label class="label">
+                        <input type="radio" name="radio-1" class="radio" />
+                        اجاره خودرو ایرانی
+                      </label>
+                      <label class="label">
+                        <input type="radio" name="radio-1" class="radio" />
+                        اجاره خودرو تشریفات
+                      </label>
+                      <label class="label">
+                        <input type="radio" name="radio-1" class="radio" />
+                        اجاره ماشین عروس
+                      </label>
+                      <label class="label">
+                        <input type="radio" name="radio-1" class="radio" />
+                        اجاره خودرو لوکس
+                      </label>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+              <!--end-sidebar-forneed-->
+            </div>
+            <!--mobile-sidebar-->
+            <!--mobile-cars-->
+            <div class="cars w-full">
+              <div class="cars-top w-full h-auto flex mb-[24px]">
+                <div class="filter w-full h-[48px] flex gap-y-[24px]">
+                  <!--mobile-filter-left-->
+                  <div class="fliter-right w-[50%] h-[48px]">
+                    <select
+                      class="bhhselect w-full font-yekan border-[#9A9A9A] border-[1px] rounded-[8px] p-[12px]"
+                    >
+                      <option disabled selected>تقویم قیمتی</option>
+                      <option>Crimson</option>
+                      <option>Amber</option>
+                      <option>Velvet</option>
+                    </select>
+                  </div>
+                  <!--end-mobile-filter-left-->
+                  <!--mobile-filter-left-->
+                  <div class="fliter-left w-[50%] h-[48px]">
+                    <select
+                      class="bhhselect w-full font-yekan border-[#9A9A9A] border-[1px] rounded-[8px] p-[12px]"
+                    >
+                      <option disabled selected>مرتب سازی</option>
+                      <option>Crimson</option>
+                      <option>Amber</option>
+                      <option>Velvet</option>
+                    </select>
+                  </div>
+                  <!--end-mobile-filter-left-->
+                </div>
+              </div>
+              <!--mobile-cars-bottom--->
+              <div class="cars-bottom w-full h-auto">
+                <div class="stock-cars w-full">
+                  <!--stock-car-row1-->
+                  <div class="stock-car-row1 w-full">
+                    <!--mobile-stock-car-row1-col1-->
+                    <div
+                      class="row1-col1 w-[90%] mx-auto h-full border-[1px] border-[#D7D7D7] bg-[#ffffff] rounded-2xl box-border p-[16px] gap-y-2 mb-[16px]"
+                    >
+                      <div class="inner1 w-full h-full flex flex-col gap-y-2">
+                        <!--image-capthon-->
+                        <div
+                          class="img-cap w-full h-[401px] border-b-[1px] border-[#D7D7D7] pb-[12px] flex flex-col gap-y-2"
+                        >
+                          <div class="w-full h-[225px] justify-center flex">
+                            <img
+                              src="./src/images/stock-car/car-1.png"
+                              alt=""
+                              class="bg-contain"
+                            />
+                          </div>
+                          <div
+                            class="tite-car w-full h-[52px] flex gap-2 flex-col"
+                          >
+                            <span
+                              class="class text-[16px] font-yekan font-bold text-black"
+                              >اجاره بنز E350 سدان</span
+                            >
+                            <div class="model flex gap-[3px]">
+                              <span class="text-[12px] font-yekan font-normal"
+                                >مدل :</span
+                              >
+                              <span class="text-[12px] font-yekan font-normal"
+                                >2016</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <div
+                            class="day-price w-full h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[8px] flex flex-row"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >روزانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <!--monthly-price-->
+                          <div
+                            class="monthly-price w-full h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[7px] flex flex-row items-center"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >ماهانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--monthly-price-->
+                        </div>
+                        <!--end image-capthon-->
+                        <!--garanty-->
+                        <div
+                          class="garanty w-full h-[21px] flex justify-between"
+                        >
+                          <span
+                            class="class text-[12px] font-yekan font-medium text-[#212121]"
+                            >مبلغ ضمانت:</span
+                          >
+                          <span
+                            class="class text-[12px] font-yekan font-bold text-[#212121]"
+                            >80 میلیون تومان</span
+                          >
+                        </div>
+                        <!--end garanty-->
+                        <!--button-rezerv-->
+                        <div
+                          class="class w-[100%] h-[40px] rounded-[8px] btn btn-primary"
+                        >
+                          <span
+                            class="class text-[14px] font-yekan font-semibold text-white"
+                            >درخواست رزرو</span
+                          >
+                        </div>
+                        <!--end button-rezerv-->
+                      </div>
+                    </div>
+                    <!--end-mobile-stock-car-row1-col1-->
+                    <!--mobile-stock-car-row1-col2-->
+                    <div
+                      class="row1-col1 w-[90%] mx-auto h-full border-[1px] border-[#D7D7D7] bg-[#ffffff] rounded-2xl box-border p-[16px] mb-[16px]"
+                    >
+                      <div class="inner1 w-full h-full flex flex-col gap-y-2">
+                        <!--image-capthon-->
+                        <div
+                          class="img-cap w-full h-[401px] border-b-[1px] border-[#D7D7D7] pb-[12px] flex flex-col gap-y-2"
+                        >
+                          <div class="w-full h-[225px] justify-center flex">
+                            <img
+                              src="./src/images/stock-car/car-2.png"
+                              alt=""
+                              class=""
+                            />
+                          </div>
+                          <div
+                            class="tite-car w-full h-[52px] flex gap-2 flex-col"
+                          >
+                            <span
+                              class="class text-[16px] font-yekan font-bold text-black"
+                              >اجاره بنز E350 سدان</span
+                            >
+                            <div class="model flex gap-[3px]">
+                              <span class="text-[12px] font-yekan font-normal"
+                                >مدل :</span
+                              >
+                              <span class="text-[12px] font-yekan font-normal"
+                                >2016</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <div
+                            class="day-price w-full h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[8px] flex flex-row"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >روزانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <!--monthly-price-->
+                          <div
+                            class="monthly-price w-full h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[7px] flex flex-row items-center"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >ماهانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--monthly-price-->
+                        </div>
+                        <!--end image-capthon-->
+                        <!--garanty-->
+                        <div
+                          class="garanty w-full h-[21px] flex justify-between"
+                        >
+                          <span
+                            class="class text-[12px] font-yekan font-medium text-[#212121]"
+                            >مبلغ ضمانت:</span
+                          >
+                          <span
+                            class="class text-[12px] font-yekan font-bold text-[#212121]"
+                            >80 میلیون تومان</span
+                          >
+                        </div>
+                        <!--end garanty-->
+                        <!--button-rezerv-->
+                        <div
+                          class="class w-full h-[40px] rounded-[8px] btn btn-primary"
+                        >
+                          <span
+                            class="class text-[14px] font-yekan font-semibold text-white"
+                            >درخواست رزرو</span
+                          >
+                        </div>
+                        <!--end button-rezerv-->
+                      </div>
+                    </div>
+                    <!--end-mobile-stock-car-row1-col2-->
+                    <!--startstock-car-row1-col3-->
+                    <div
+                      class="row1-col1 w-[90%] mx-auto h-full border-[1px] border-[#D7D7D7] bg-[#ffffff] rounded-2xl box-border p-[16px] mb-[16px]"
+                    >
+                      <div class="inner1 w-full h-full flex flex-col gap-y-2">
+                        <!--image-capthon-->
+                        <div
+                          class="img-cap w-full h-[401px] border-b-[1px] border-[#D7D7D7] pb-[12px] flex flex-col gap-y-2"
+                        >
+                          <div class="w-full h-[225px] justify-center flex">
+                            <img
+                              src="./src/images/stock-car/car-3.png"
+                              alt=""
+                              class=""
+                            />
+                          </div>
+                          <div
+                            class="tite-car w-full h-[52px] flex gap-2 flex-col"
+                          >
+                            <span
+                              class="class text-[16px] font-yekan font-bold text-black"
+                              >اجاره بنز E350 سدان</span
+                            >
+                            <div class="model flex gap-[3px]">
+                              <span class="text-[12px] font-yekan font-normal"
+                                >مدل :</span
+                              >
+                              <span class="text-[12px] font-yekan font-normal"
+                                >2016</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <div
+                            class="day-price w-full h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[8px] flex flex-row"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >روزانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <!--monthly-price-->
+                          <div
+                            class="monthly-price w-full h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[7px] flex flex-row items-center"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >ماهانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--monthly-price-->
+                        </div>
+                        <!--end image-capthon-->
+                        <!--garanty-->
+                        <div
+                          class="garanty w-full h-[21px] flex justify-between"
+                        >
+                          <span
+                            class="class text-[12px] font-yekan font-medium text-[#212121]"
+                            >مبلغ ضمانت:</span
+                          >
+                          <span
+                            class="class text-[12px] font-yekan font-bold text-[#212121]"
+                            >80 میلیون تومان</span
+                          >
+                        </div>
+                        <!--end garanty-->
+                        <!--button-rezerv-->
+                        <div
+                          class="class w-full h-[40px] rounded-[8px] btn btn-primary"
+                        >
+                          <span
+                            class="class text-[14px] font-yekan font-semibold text-white"
+                            >درخواست رزرو</span
+                          >
+                        </div>
+                        <!--end button-rezerv-->
+                      </div>
+                    </div>
+                    <!--endstock-car-row1-col3-->
+                  </div>
+                  <!--end stock-car-row1-->
+                  <!--stock-car-row2-->
+                  <div class="stock-car-row2 w-full">
+                    <!--stock-car-row2-col1-->
+                    <div
+                      class="row1-col1 w-[90%] mx-auto h-full border-[1px] border-[#D7D7D7] bg-[#ffffff] rounded-2xl box-border p-[16px] mb-[16px]"
+                    >
+                      <div class="inner1 w-full h-full flex flex-col gap-y-2">
+                        <!--image-capthon-->
+                        <div
+                          class="img-cap w-full h-[401px] border-b-[1px] border-[#D7D7D7] pb-[12px] flex flex-col gap-y-2"
+                        >
+                          <div class="w-full h-[225px] justify-center flex">
+                            <img
+                              src="./src/images/stock-car/car-1.png"
+                              alt=""
+                              class=""
+                            />
+                          </div>
+                          <div
+                            class="tite-car w-full h-[52px] flex gap-2 flex-col"
+                          >
+                            <span
+                              class="class text-[16px] font-yekan font-bold text-black"
+                              >اجاره بنز E350 سدان</span
+                            >
+                            <div class="model flex gap-[3px]">
+                              <span class="text-[12px] font-yekan font-normal"
+                                >مدل :</span
+                              >
+                              <span class="text-[12px] font-yekan font-normal"
+                                >2016</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <div
+                            class="day-price w-full h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[8px] flex flex-row"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >روزانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <!--monthly-price-->
+                          <div
+                            class="monthly-price w-full h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[7px] flex flex-row items-center"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >ماهانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--monthly-price-->
+                        </div>
+                        <!--end image-capthon-->
+                        <!--garanty-->
+                        <div
+                          class="garanty w-full h-[21px] flex justify-between"
+                        >
+                          <span
+                            class="class text-[12px] font-yekan font-medium text-[#212121]"
+                            >مبلغ ضمانت:</span
+                          >
+                          <span
+                            class="class text-[12px] font-yekan font-bold text-[#212121]"
+                            >80 میلیون تومان</span
+                          >
+                        </div>
+                        <!--end garanty-->
+                        <!--button-rezerv-->
+                        <div
+                          class="class w-full h-[40px] rounded-[8px] btn btn-primary"
+                        >
+                          <span
+                            class="class text-[14px] font-yekan font-semibold text-white"
+                            >درخواست رزرو</span
+                          >
+                        </div>
+                        <!--end button-rezerv-->
+                      </div>
+                    </div>
+                    <!--stock-car-row2-col1-->
+                    <!--startstock-car-row2-col2-->
+                    <div
+                      class="row1-col1 w-[90%] mx-auto h-full border-[1px] border-[#D7D7D7] bg-[#ffffff] rounded-2xl box-border p-[16px] mb-[16px]"
+                    >
+                      <div class="inner1 w-full h-full flex flex-col gap-y-2">
+                        <!--image-capthon-->
+                        <div
+                          class="img-cap w-full h-[401px] border-b-[1px] border-[#D7D7D7] pb-[12px] flex flex-col gap-y-2"
+                        >
+                          <div class="w-full h-[225px] justify-center flex">
+                            <img
+                              src="./src/images/stock-car/car-2.png"
+                              alt=""
+                              class=""
+                            />
+                          </div>
+                          <div
+                            class="tite-car w-full h-[52px] flex gap-2 flex-col"
+                          >
+                            <span
+                              class="class text-[16px] font-yekan font-bold text-black"
+                              >اجاره بنز E350 سدان</span
+                            >
+                            <div class="model flex gap-[3px]">
+                              <span class="text-[12px] font-yekan font-normal"
+                                >مدل :</span
+                              >
+                              <span class="text-[12px] font-yekan font-normal"
+                                >2016</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <div
+                            class="day-price w-full h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[8px] flex flex-row"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >روزانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <!--monthly-price-->
+                          <div
+                            class="monthly-price w-full h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[7px] flex flex-row items-center"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >ماهانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--monthly-price-->
+                        </div>
+                        <!--end image-capthon-->
+                        <!--garanty-->
+                        <div
+                          class="garanty w-full h-[21px] flex justify-between"
+                        >
+                          <span
+                            class="class text-[12px] font-yekan font-medium text-[#212121]"
+                            >مبلغ ضمانت:</span
+                          >
+                          <span
+                            class="class text-[12px] font-yekan font-bold text-[#212121]"
+                            >80 میلیون تومان</span
+                          >
+                        </div>
+                        <!--end garanty-->
+                        <!--button-rezerv-->
+                        <div
+                          class="class w-full h-[40px] rounded-[8px] btn btn-primary"
+                        >
+                          <span
+                            class="class text-[14px] font-yekan font-semibold text-white"
+                            >درخواست رزرو</span
+                          >
+                        </div>
+                        <!--end button-rezerv-->
+                      </div>
+                    </div>
+                    <!--endstock-car-row2-col2-->
+                    <!--startstock-car-row2-col3-->
+                    <div
+                      class="row1-col1 w-[90%] mx-auto h-full border-[1px] border-[#D7D7D7] bg-[#ffffff] rounded-2xl box-border p-[16px] mb-[16px]"
+                    >
+                      <div class="inner1 w-full h-full flex flex-col gap-y-2">
+                        <!--image-capthon-->
+                        <div
+                          class="img-cap w-full h-[401px] border-b-[1px] border-[#D7D7D7] pb-[12px] flex flex-col gap-y-2"
+                        >
+                          <div class="w-full h-[225px] justify-center flex">
+                            <img
+                              src="./src/images/stock-car/car-3.png"
+                              alt=""
+                              class=""
+                            />
+                          </div>
+                          <div
+                            class="tite-car w-full h-[52px] flex gap-2 flex-col"
+                          >
+                            <span
+                              class="class text-[16px] font-yekan font-bold text-black"
+                              >اجاره بنز E350 سدان</span
+                            >
+                            <div class="model flex gap-[3px]">
+                              <span class="text-[12px] font-yekan font-normal"
+                                >مدل :</span
+                              >
+                              <span class="text-[12px] font-yekan font-normal"
+                                >2016</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <div
+                            class="day-price w-full h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[8px] flex flex-row"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >روزانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--day-price-->
+                          <!--monthly-price-->
+                          <div
+                            class="monthly-price w-full h-[44px] rounded-[8px] bg-[#F3F3F3] p-[8px] box-border gap-x-[7px] flex flex-row items-center"
+                          >
+                            <div class="day30 w-[70px] h-[28px]">
+                              <span
+                                class="class text-[12px] font-normal font-yekan text-[#212121]"
+                              >
+                                از ۱ تا 30 روز:
+                              </span>
+                            </div>
+                            <div class="price-number w-[125px] h-[28px]">
+                              <span
+                                class="class block text-[16px] font-bold text-[#194BF0]"
+                                >8,500,000</span
+                              >
+                            </div>
+                            <div class="day-text flex items-center">
+                              <span
+                                class="class block w-[27px] h-[22px] text-[12px] font-yekan font-normal text-[#494949]"
+                                >ماهانه</span
+                              >
+                            </div>
+                          </div>
+                          <!--monthly-price-->
+                        </div>
+                        <!--end image-capthon-->
+                        <!--garanty-->
+                        <div
+                          class="garanty w-full h-[21px] flex justify-between"
+                        >
+                          <span
+                            class="class text-[12px] font-yekan font-medium text-[#212121]"
+                            >مبلغ ضمانت:</span
+                          >
+                          <span
+                            class="class text-[12px] font-yekan font-bold text-[#212121]"
+                            >80 میلیون تومان</span
+                          >
+                        </div>
+                        <!--end garanty-->
+                        <!--button-rezerv-->
+                        <div
+                          class="class w-full h-[40px] rounded-[8px] btn btn-primary"
+                        >
+                          <span
+                            class="class text-[14px] font-yekan font-semibold text-white"
+                            >درخواست رزرو</span
+                          >
+                        </div>
+                        <!--end button-rezerv-->
+                      </div>
+                    </div>
+                    <!--endstock-car-row2-col3-->
+                  </div>
+
+                  <!--end-stock-car-row2-->
+                </div>
+              </div>
+              <!--end-mobile-cars-bottom--->
+            </div>
+            <!--end-mobile-cars-->
+          </div>
+          <!--main-center-mobile-->
+        </div>
+        <!--end-mobile-main-->
+      </div>
+      <!--end main-->
+      <!--#regin footer-->
+      <div class="mobil and desk">
+        <div
+          class="wrappwe-footer w-full h-[496px] mx-auto hidden desktop:block"
+        >
+          <div
+            class="footer w-[1224px] h-[432px] bg-[#1e1e1e] mx-auto rounded-[16px] mt-[80px] py-[56px] px-[24px] shadow-[0_0_6px_rgba(0,0,0,0.35)] mb-[64px]"
+          >
+            <div class="footer-inner">
+              <!--footer-top-->
+
+              <div
+                class="footer-top w-[1120px] h-[101px] rounded-[16px] border-[1px] border-[#868686] border-solid mx-auto p-[16px] flex flex-wrap flex-row gap-x-[10px] justify-between items-center"
+              >
+                <!--footer-top-call-->
+                <div
+                  class="footer-top-call-right w-1/4 h-[69px] flex flex-wrap items-center gap-x-[10px]"
+                >
+                  <div class="imge-call">
+                    <img src="./src/images/footer/call.png" alt="" />
+                  </div>
+                  <div class="call-text flex flex-col">
+                    <span class="text-center text-white text-[16px] font-yekan"
+                      >ارتباط با ما</span
+                    >
+                    <span class="text-center text-white font-yekan"
+                      >021-44561245</span
+                    >
+                  </div>
+                </div>
+                <!--end footer-top-call-->
+                <!--footer-top-divider-->
+                <div
+                  class="footer-top-divider w-[1px] h-[36px] bg-[#363636]"
+                ></div>
+                <!--end footer-top-divider-->
+
+                <!--footer-top-email-->
+                <div
+                  class="footer-top-email w-1/4 h-[69px] flex flex-wrap flex-row items-center gap-x-[10px]"
+                >
+                  <div class="icon-email">
+                    <img src="./src/images/footer/email.png" alt="" />
+                  </div>
+                  <div class="text-email flex flex-wrap flex-col font-yekan">
+                    <span class="text-white font-yekan">ایمیل</span>
+                    <span class="text-white font-yekan">autorent@info.com</span>
+                  </div>
+                </div>
+                <!--end footer-top-email-->
+                <!--footer-top-divider-->
+                <div
+                  class="footer-top-divider-s w-[1px] h-[36px] bg-[#363636]"
+                ></div>
+                <!--end footer-top-divider-->
+                <!--footer-top-address-->
+                <div
+                  class="footer-top-address w-1/4 h-[69px] flex flex-wrap flex-row gap-x-[10px] items-center"
+                >
+                  <div class="icon-address">
+                    <img src="./src/images/footer/address.png" alt="" />
+                  </div>
+                  <div class="text-adress flex flex-wrap flex-col">
+                    <span class="text-white font-yekan">آدرس</span>
+                    <span class="text-white font-yekan">خیابان شادمان</span>
+                  </div>
+                </div>
+                <!--end footer-top-address-->
+              </div>
+              <!-- end footer-top-->
+              <!---footer-bottom-->
+              <div
+                class="footer-bottom w-[1115px] h-[168px] p-[20px] mx-auto mt-[16px] flex flex-wrap flex-row items-center justify-between"
+              >
+                <!--start footer-bottom-about-->
+                <div class="footer-bottom-about w-1/4 h-[168px]">
+                  <div class="footer-bottom-about-top">
+                    <img src="./src/images/footer/Logo.png" alt="" />
+                  </div>
+                  <div class="footer-bottom-about-bottom">
+                    <p class="text-white font-yekan">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                      و با استفاده از طراحان گرافیک است، چاپگرها و
+                    </p>
+                  </div>
+                </div>
+                <!--end footer-bottom-about-->
+                <!--footer-boottom-menu-->
+                <div
+                  class="footer-bottom-menu w-1/4 h-[168px] flex flex-wrap justify-center"
+                >
+                  <nav>
+                    <div class="nav flex flex-wrap flex-col">
+                      <a href="" class="p-[5px] block text-white font-yekan"
+                        >دسترسی آسان</a
+                      >
+                      <a href="" class="p-[5px] block text-white font-yekan"
+                        >سوالات متداول</a
+                      >
+                      <a href="" class="p-[5px] block text-white font-yekan"
+                        >تماس با ما</a
+                      >
+                      <a href="" class="p-[5px] block text-white font-yekan"
+                        >درباره ما</a
+                      >
+                    </div>
+                  </nav>
+                </div>
+                <!-- end footer-boottom-menu-->
+                <!--start footer-bottom-news -->
+                <div
+                  class="footer-bottom-news w-1/4 h-[168px] flex flex-col gap-y-[15px]"
+                >
+                  <div class="news-top mt-[10px]">
+                    <span class="text-white font-yekan">خبرنامه</span>
+                  </div>
+                  <div class="join">
+                    <div>
+                      <label class="input validator join-item">
+                        <svg
+                          class="h-[1em] opacity-50"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <g
+                            stroke-linejoin="round"
+                            stroke-linecap="round"
+                            stroke-width="2.5"
+                            fill="none"
+                            stroke="currentColor"
+                          >
+                            <rect
+                              width="20"
+                              height="16"
+                              x="2"
+                              y="4"
+                              rx="2"
+                            ></rect>
+                            <path
+                              d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
+                            ></path>
+                          </g>
+                        </svg>
+                        <input
+                          type="email"
+                          placeholder="ایمیل خود را وارد کنید"
+                          class="font-yekan text-[11px]"
+                          required
+                        />
+                      </label>
+                      <div class="validator-hint hidden font-yekan">
+                        ایمیل خود را وارد کنید
+                      </div>
+                    </div>
+                    <button
+                      class="btn join-item bg-amber-400 text-black font-yekan"
+                    >
+                      ارسال
+                    </button>
+                  </div>
+                </div>
+
+                <!--end footer-bottom-news -->
+              </div>
+              <!--end footer-bottom-->
+              <!--footer-certificate-->
+              <div
+                class="footer-certificate w-[1176px] h-[49px] mt-[16px] text-center text-[14px]"
+              >
+                <img src="" alt="" />
+                <p class="text-white font-yekan">
+                  تمامی حقوق متلق به وبسایت اتو رنت میباشد
+                </p>
+              </div>
+              <!--end footer-certificate-->
+            </div>
+            <!--end-footer-inner-->
+          </div>
+        </div>
+        <!--mobile-footer-->
+        <div class="mobile-footer block desktop:hidden w-full h-fit mt-[25px]">
+          <!--inner-mobile-footer-->
+          <div
+            class="inner-mobile-footer w-[90%] mx-auto rounded-xl p-8 h-fit bg-[rgb(51,51,51)]"
+          >
+            <!--mobile-section-top-->
+
+            <div
+              class="border rounded-xl h-fit p-4 flex flex-col border-gray-400"
+            >
+              <!--mobile-footer-top-call-->
+              <div
+                class="footer-top-call-right w-full h-[69px] flex flex-wrap items-center gap-x-[10px]"
+              >
+                <div class="imge-call">
+                  <img src="./src/images/footer/call.png" alt="" />
+                </div>
+                <div class="call-text flex flex-col">
+                  <span class="text-center text-white text-[16px] font-yekan"
+                    >ارتباط با ما</span
+                  >
+                  <span class="text-center text-white font-yekan"
+                    >021-44561245</span
+                  >
+                </div>
+              </div>
+              <!--end footer-top-call-->
+              <!--start-mmobile-footer-top-email-->
+              <div
+                class="footer-top-email w-full h-[69px] flex flex-wrap flex-row items-center gap-x-[10px]"
+              >
+                <div class="icon-email">
+                  <img src="./src/images/footer/email.png" alt="" />
+                </div>
+                <div class="text-email flex flex-wrap flex-col font-yekan">
+                  <span class="text-white font-yekan">ایمیل</span>
+                  <span class="text-white font-yekan">autorent@info.com</span>
+                </div>
+              </div>
+              <!--end-mobile-footer-top-email-->
+              <!--start-mobile-footer-top-address-->
+              <div
+                class="footer-top-address w-full h-[69px] flex flex-wrap flex-row gap-x-[10px] items-center"
+              >
+                <div class="icon-address">
+                  <img src="./src/images/footer/address.png" alt="" />
+                </div>
+                <div class="text-adress flex flex-wrap flex-col">
+                  <span class="text-white font-yekan">آدرس</span>
+                  <span class="text-white font-yekan">خیابان شادمان</span>
+                </div>
+              </div>
+              <!--start-mobile-footer-top-address-->
+            </div>
+            <!--end-mobile-section-top-->
+            <!--mobile-section-2-->
+            <div class="section2 w-full mt-4 h-fit">
+              <img src="./src/images/footer/Logo.png" alt="" class="mx-auto" />
+            </div>
+            <div class="footer-bottom-about-bottom">
+              <p class="text-white font-yekan text-center justify-between">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                استفاده از طراحان گرافیک است، چاپگرها و
+              </p>
+            </div>
+            <!--end-mobile-section-2-->
+            <!--mobile-footer-boottom-menu-->
+            <div
+              class="footer-bottom-menu w-full h-fit flex flex-col flex-wrap justify-center mt-5"
+            >
+              <nav>
+                <div class="nav flex flex-wrap flex-col">
+                  <a
+                    href=""
+                    class="p-[5px] block text-white font-yekan text-center text-sm"
+                    >دسترسی آسان</a
+                  >
+                  <a
+                    href=""
+                    class="p-[5px] block text-white font-yekan text-center"
+                    >سوالات متداول</a
+                  >
+                  <a
+                    href=""
+                    class="p-[5px] block text-white font-yekan text-center"
+                    >تماس با ما</a
+                  >
+                  <a
+                    href=""
+                    class="p-[5px] block text-white font-yekan text-center"
+                    >درباره ما</a
+                  >
+                </div>
+              </nav>
+            </div>
+
+            <!-- end mobile-footer-boottom-menu-->
+            <!--mobile-khabarnameh-->
+            <div
+              class="khabar flex flex-col justify-center mt-[15px] mb-[20px]"
+            >
+              <p
+                class="class font-yekan mb-4 text-gray-500 text-center text-2xl"
+              >
+                خبرنامه
+              </p>
+              <div class="class flex justify-center">
+                <div class="join w-full border border-gray-300 rounded-xl">
+                  <div class="w-full h-full">
+                    <label
+                      class="input validator join-item w-full bg-transparent"
+                    >
+                      <input
+                        type="email"
+                        placeholder="ایمیل خود را وارد کنید"
+                        class="font-yekan text-[11px] w-fit outline-none rounded-xl text-white"
+                        required
+                      />
+                    </label>
+                    <div class="validator-hint hidden font-yekan">
+                      ایمیل خود را وارد کنید
+                    </div>
+                  </div>
+                  <button
+                    class="btn join-item bg-amber-400 text-black font-yekan rounded-xl"
+                  >
+                    ارسال
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!--end-mobile-khabarnameh-->
+            <hr class="bg-white h-[2px]" />
+            <div class="copyright mt-8 text-gray-300 items-center">
+              <span class="font-yekan block w-full text-center">
+                تمامی حقوق وبسایت متعلق به وبسایت اتورنت میباشد.</span
+              >
+            </div>
+          </div>
+          <!--inner-mobile-footer-->
+        </div>
+        <!--endmobile-footer-->
+      </div>
+      <!--#regin end footer-->
+    </div>
+    <!-- end wrapper-->
+  </body>
+</html>
