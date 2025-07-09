@@ -1857,6 +1857,9 @@
   .h-\[242px\] {
     height: 242px;
   }
+  .h-\[300px\] {
+    height: 300px;
+  }
   .h-\[317px\] {
     height: 317px;
   }
@@ -2563,6 +2566,9 @@
   }
   .bg-\[url\(\/src\/images\/plp\/header\/img-1\.png\)\] {
     background-image: url(/src/images/plp/header/img-1.png);
+  }
+  .bg-\[url\(https\:\/\/mahsasarfraz\.github\.io\/finalweb2\/src\/images\/plp\/header\/img-1\.png\)\] {
+    background-image: url(https://mahsasarfraz.github.io/finalweb2/src/images/plp/header/img-1.png);
   }
   .mask-star-2 {
     mask-image: url("data:image/svg+xml,%3csvg width='192' height='180' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill='black' d='m96 153.044-58.779 26.243 7.02-63.513L.894 68.481l63.117-13.01L96 0l31.989 55.472 63.117 13.01-43.347 47.292 7.02 63.513z' fill-rule='evenodd'/%3e%3c/svg%3e");

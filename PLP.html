@@ -15,22 +15,17 @@
     >
       <!--header-->
       <div
-        class="header w-full h-[400px] bg-[url(/src/images/plp/header/img-1.png)] bg-center bg-cover relative header mobile:w-full mobile:h-[300px] mobile:bg-[url(/src/images/plp/header/img-1.png)] mobile:bg-center mobile:bg-cover mobile:relative"
+        class="header w-full h-[400px] bg-[url(https://mahsasarfraz.github.io/finalweb2/src/images/plp/header/img-1.png)] bg-center bg-cover relative hidden desktop:block"
       >
-        <!-- <img src="./src/images/header/img-2.png" alt="" class="absolute top-[129px] scale-x-[1.1] scale-y-[1.1] left-[45px]"> -->
         <!--#regin header-top -->
         <div
-          class="desktop:header-top desktop:w-[1224px] desktop:h-[96px] desktop:rounded-b-[16px] desktop:bg-[#FFFFFF] desktop:pl-[32px] desktop:pr-[32px] desktop:box-border desktop:mx-auto desktop:flex desktop:items-center desktop:justify-between mobile:header-top mobile:w-[80%] mobile:h-[96px] mobile:rounded-b-[16px] mobile:bg-[#FFFFFF] mobile:pl-[32px] mobile:pr-[32px] mobile:box-border mobile:mx-auto mobile:flex mobile:items-center mobile:justify-between"
+          class="header-top w-[1224px] h-[96px] rounded-b-[16px] bg-[#FFFFFF] pl-[32px] pr-[32px] box-border mx-auto flex items-center justify-between"
         >
           <div class="right">
-            <img
-              src="./src/images/header/Logo.png"
-              alt=""
-              class="mobile:w-[80%]"
-            />
+            <img src="./src/images/header/Logo.png" alt="" />
           </div>
           <!--nav-->
-          <div class="hidden desktop:block center">
+          <div class="center">
             <div class="center-nav w-[507px] h-[28px]">
               <nav class="w-full h-full flex justify-between gap-x-[20px]">
                 <div>
@@ -68,19 +63,6 @@
                 >ورود / ثبت‌نام</a
               >
             </div>
-            <!--menu mobile-->
-
-            <div class="menu-mobile desktop:hidden block">
-              <div
-                class="w-[50px] h-[50px] flex flex-col justify-center gap-y-2"
-              >
-                <div class="w-[30px] h-[3px] bg-black"></div>
-                <div class="w-[30px] h-[3px] bg-black"></div>
-                <div class="w-[30px] h-[3px] bg-black"></div>
-              </div>
-            </div>
-
-            <!--end menu mobile-->
           </div>
 
           <!--end register-->
@@ -100,6 +82,45 @@
         <!--#endregin header-cenrer -->
       </div>
       <!--end header-->
+      <!--mobile-header-->
+      <div
+        class="header w-full h-[300px] bg-[url(https://mahsasarfraz.github.io/finalweb2/src/images/plp/header/img-1.png)] bg-center bg-cover relative block desktop:hidden"
+      >
+        <!--#regin header-top -->
+        <div
+          class="header-top w-[80%] h-[96px] rounded-b-[16px] bg-[#FFFFFF] pl-[32px] pr-[32px] box-border mx-auto flex items-center justify-between"
+        >
+          <div class="right">
+            <img src="./src/images/header/Logo.png" alt="" class="w-[80%]" />
+          </div>
+          <!--nav-->
+
+          <!--end nav-->
+          <!--register-->
+          <div class="left">
+            <!--menu mobile-->
+
+            <div class="menu-mobile desktop:hidden block">
+              <div
+                class="w-[50px] h-[50px] flex flex-col justify-center gap-y-2"
+              >
+                <div class="w-[30px] h-[3px] bg-black"></div>
+                <div class="w-[30px] h-[3px] bg-black"></div>
+                <div class="w-[30px] h-[3px] bg-black"></div>
+              </div>
+            </div>
+
+            <!--end menu mobile-->
+          </div>
+
+          <!--end register-->
+        </div>
+        <!--#endregin header-top -->
+        <!--#regin header-cenrer -->
+
+        <!--#endregin header-cenrer -->
+      </div>
+      <!--end-mobile-header-->
       <!--start main-->
       <div>
         <div class="main w-full mt-[56px] hidden desktop:block">
