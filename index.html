@@ -320,26 +320,41 @@
                   class="h-auto max-h-[40px]"
                 />
               </div>
+              <!-- لوگو -->
 
               <!-- منوی موبایل (همبرگری) -->
-              <div class="menu-mobile">
-                <button
-                  class="w-12 h-12 flex flex-col justify-center items-center gap-y-1.5"
-                  aria-label="Mobile Menu"
-                >
-                  <span class="w-[30px] h-[3px] bg-black rounded-full"></span>
-                  <span class="w-[30px] h-[3px] bg-black rounded-full"></span>
-                  <span class="w-[30px] h-[3px] bg-black rounded-full"></span>
-                </button>
-              </div>
+                 <!-- دکمه منو همبرگری -->
+      <div class="menu-mobile block desktop:hidden">
+        <button
+          id="menuToggle"
+          class="w-12 h-12 flex flex-col justify-center items-center gap-y-1.5"
+        >
+          <span class="w-[30px] h-[3px] bg-black rounded-full"></span>
+          <span class="w-[30px] h-[3px] bg-black rounded-full"></span>
+          <span class="w-[30px] h-[3px] bg-black rounded-full"></span>
+        </button>
+      </div>
+              <!-- منوی موبایل (همبرگری) -->
+                 <!-- منوی بازشو -->
+  <div
+    id="mobileMenu"
+    class="absolute top-[96px] right-0 w-full bg-white rounded-b-2xl shadow-lg py-4 px-6 hidden z-50"
+  >
+    <ul class="flex flex-col gap-y-4 font-yekan text-[16px] font-medium">
+      <li><a href="#">صفحه اصلی</a></li>
+      <li><a href="#">رزرو خودرو</a></li>
+      <li><a href="#">قوانین</a></li>
+      <li><a href="#">درباره ما</a></li>
+      <li><a href="#">تماس با ما</a></li>
+    </ul>
+  </div>
             </div>
           </div>
+           <!-- هدر بالا -->
         </div>
-
         <!--end-mobile-->
       </div>
-
-      <!--#endregin header-->
+      <!--#end-regin header-->
 
       <!--#regin information rezerv -->
       <div
@@ -3548,5 +3563,14 @@
     </div>
 
     <!-- end wrapper-->
+     <script>
+  const menuToggle = document.getElementById("menuToggle");
+  const mobileMenu = document.getElementById("mobileMenu");
+
+  menuToggle.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+  });
+</script>
+
   </body>
 </html>
