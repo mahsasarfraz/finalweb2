@@ -35,7 +35,10 @@
     --radius-lg: 0.5rem;
     --radius-xl: 0.75rem;
     --radius-2xl: 1rem;
+    --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
     --perspective-normal: 500px;
+    --default-transition-duration: 150ms;
+    --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
     --font-yekan: yekan;
@@ -2561,11 +2564,14 @@
   .bg-\[url\(\'\/src\/images\/header\/img-1\.png\'\)\] {
     background-image: url('/src/images/header/img-1.png');
   }
+  .bg-\[url\(\'https\:\/\/mahsasarfraz\.github\.io\/finalweb2\/src\/images\/header\/img-1\.png\'\)\] {
+    background-image: url('https://mahsasarfraz.github.io/finalweb2/src/images/header/img-1.png');
+  }
   .bg-\[url\(\/src\/images\/header\/img-1\.png\)\] {
     background-image: url(/src/images/header/img-1.png);
   }
-  .bg-\[url\(\/src\/images\/plp\/header\/img-1\.png\)\] {
-    background-image: url(/src/images/plp/header/img-1.png);
+  .bg-\[url\(https\:\/\/mahsasarfraz\.github\.io\/finalweb2\/src\/images\/header\/img-1\.png\)\] {
+    background-image: url(https://mahsasarfraz.github.io/finalweb2/src/images/header/img-1.png);
   }
   .bg-\[url\(https\:\/\/mahsasarfraz\.github\.io\/finalweb2\/src\/images\/plp\/header\/img-1\.png\)\] {
     background-image: url(https://mahsasarfraz.github.io/finalweb2/src/images/plp/header/img-1.png);
@@ -2954,11 +2960,6 @@
       margin-bottom: 200px;
     }
   }
-  .mobile\:box-border {
-    @media (width >= 340px) {
-      box-sizing: border-box;
-    }
-  }
   .mobile\:flex {
     @media (width >= 340px) {
       display: flex;
@@ -2974,11 +2975,6 @@
       height: 44px;
     }
   }
-  .mobile\:h-\[96px\] {
-    @media (width >= 340px) {
-      height: 96px;
-    }
-  }
   .mobile\:h-\[109px\] {
     @media (width >= 340px) {
       height: 109px;
@@ -2987,11 +2983,6 @@
   .mobile\:h-\[186px\] {
     @media (width >= 340px) {
       height: 186px;
-    }
-  }
-  .mobile\:h-\[300px\] {
-    @media (width >= 340px) {
-      height: 300px;
     }
   }
   .mobile\:h-fit {
@@ -3039,11 +3030,6 @@
       align-items: center;
     }
   }
-  .mobile\:justify-between {
-    @media (width >= 340px) {
-      justify-content: space-between;
-    }
-  }
   .mobile\:justify-center {
     @media (width >= 340px) {
       justify-content: center;
@@ -3064,12 +3050,6 @@
       border-radius: var(--radius-2xl);
     }
   }
-  .mobile\:rounded-b-\[16px\] {
-    @media (width >= 340px) {
-      border-bottom-right-radius: 16px;
-      border-bottom-left-radius: 16px;
-    }
-  }
   .mobile\:border-\[1px\] {
     @media (width >= 340px) {
       border-style: var(--tw-border-style);
@@ -3079,11 +3059,6 @@
   .mobile\:border-\[\#D7D7D7\] {
     @media (width >= 340px) {
       border-color: #D7D7D7;
-    }
-  }
-  .mobile\:bg-\[\#FFFFFF\] {
-    @media (width >= 340px) {
-      background-color: #FFFFFF;
     }
   }
   .mobile\:bg-\[\#f3f3f3\] {
@@ -3102,11 +3077,6 @@
       @supports (color: color-mix(in lab, red, red)) {
         background-color: color-mix(in oklab, var(--color-black) 70%, transparent);
       }
-    }
-  }
-  .mobile\:bg-\[url\(\/src\/images\/plp\/header\/img-1\.png\)\] {
-    @media (width >= 340px) {
-      background-image: url(/src/images/plp/header/img-1.png);
     }
   }
   .mobile\:bg-\[url\(\/src\/images\/whyauto\/car-bac\.jpg\)\] {
@@ -3137,16 +3107,6 @@
   .mobile\:px-\[30px\] {
     @media (width >= 340px) {
       padding-inline: 30px;
-    }
-  }
-  .mobile\:pr-\[32px\] {
-    @media (width >= 340px) {
-      padding-right: 32px;
-    }
-  }
-  .mobile\:pl-\[32px\] {
-    @media (width >= 340px) {
-      padding-left: 32px;
     }
   }
   .mobile\:text-center {
@@ -3243,11 +3203,6 @@
   .desktop\:mb-\[200px\] {
     @media (width >= 1000px) {
       margin-bottom: 200px;
-    }
-  }
-  .desktop\:box-border {
-    @media (width >= 1000px) {
-      box-sizing: border-box;
     }
   }
   .desktop\:block {
@@ -3355,11 +3310,6 @@
       align-items: center;
     }
   }
-  .desktop\:justify-between {
-    @media (width >= 1000px) {
-      justify-content: space-between;
-    }
-  }
   .desktop\:gap-x-\[8px\] {
     @media (width >= 1000px) {
       column-gap: 8px;
@@ -3380,12 +3330,6 @@
       border-radius: var(--radius-2xl);
     }
   }
-  .desktop\:rounded-b-\[16px\] {
-    @media (width >= 1000px) {
-      border-bottom-right-radius: 16px;
-      border-bottom-left-radius: 16px;
-    }
-  }
   .desktop\:border-\[1px\] {
     @media (width >= 1000px) {
       border-style: var(--tw-border-style);
@@ -3395,11 +3339,6 @@
   .desktop\:border-\[\#D7D7D7\] {
     @media (width >= 1000px) {
       border-color: #D7D7D7;
-    }
-  }
-  .desktop\:bg-\[\#FFFFFF\] {
-    @media (width >= 1000px) {
-      background-color: #FFFFFF;
     }
   }
   .desktop\:bg-\[\#f3f3f3\] {
@@ -3448,16 +3387,6 @@
   .desktop\:px-\[30px\] {
     @media (width >= 1000px) {
       padding-inline: 30px;
-    }
-  }
-  .desktop\:pr-\[32px\] {
-    @media (width >= 1000px) {
-      padding-right: 32px;
-    }
-  }
-  .desktop\:pl-\[32px\] {
-    @media (width >= 1000px) {
-      padding-left: 32px;
     }
   }
   .desktop\:text-center {
